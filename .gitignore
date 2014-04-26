@@ -1,0 +1,6 @@
+*.egg
+*.egg-info
+/build
+/dist
+/version.txt
+/spiralswarm/_version.py
