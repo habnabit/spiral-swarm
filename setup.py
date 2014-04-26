@@ -5,6 +5,7 @@ setup(
     name='spiral-swarm',
     description='easy local file transfer with curvecp',
     author='Aaron Gallagher',
+    author_email='_@habnab.it',
     packages=find_packages(),
     install_requires=[
         'fish',
