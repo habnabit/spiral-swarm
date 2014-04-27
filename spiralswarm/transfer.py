@@ -6,7 +6,7 @@ from twisted.protocols.stateful import StatefulProtocol
 
 
 class FileSenderProtocol(StatefulProtocol):
-    concurrency = 5
+    concurrency = 100
 
     def connectionMade(self):
         # bogus
